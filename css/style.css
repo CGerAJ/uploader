@@ -1,0 +1,46 @@
+/* 
+* @Author: CGerAJ
+* @Date:   2017-04-21 14:15:03
+* @Last Modified by:   CGerAJ
+* @Last Modified time: 2017-04-21 14:15:58
+*/
+#upload-container {
+  float: left;
+}
+#upload-container #browsefile {
+  visibility: hidden;
+  height: 0.1px;
+  width: 0.1px;
+}
+#upload-container #filebutton {
+  float: left;
+  width: 80px;
+  height: 80px;
+  outline: none;
+  background-image: url(../img/iconfont-tianjia.png);
+  background-color: #fff;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  cursor: pointer;
+}
+#img-content {
+  float: left;
+}
+.upload-img-box {
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  margin: 5px;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+}
+.upload-img-box .icon-x-copy {
+  font-size: 18px;
+  color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

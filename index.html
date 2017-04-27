@@ -1,0 +1,25 @@
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+</head>
+<body>
+ <!-- document.querySelector('#upload-container').style.display = "none"; -->
+<div class="container">
+    <div class="row">
+        <div id="img-content"></div>
+        <div id="upload-container" class="col-xs-12 text-center">
+            <input accept="image/*" type="file" id="browsefile" multiple="multiple">
+            <input type="button" id="filebutton" value="" onclick="browsefile.click()">
+        </div>
+    </div>
+</div>
+
+<script src="./lrz.all.bundle.js"></script>
+<script src="./index.js"></script>
+
+</body>
+</html>
